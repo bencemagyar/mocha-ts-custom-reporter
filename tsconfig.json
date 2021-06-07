@@ -1,0 +1,14 @@
+{
+  "compilerOptions": {
+    "target": "es5",
+    "module": "commonjs",
+    "moduleResolution": "node",
+    "declarationMap": true,
+    "declaration": true,
+    "outDir": "dist",
+    "sourceMap": true,
+    "types": ["@types/chai", "@types/mocha"]
+  },
+  "include": ["src/**/*", "specs/**/*"],
+  "exclude": ["node_modules"]
+}

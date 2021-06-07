@@ -1,0 +1,33 @@
+{
+  "name": "mocha-ts-custom-reporter",
+  "version": "1.0.0",
+  "description": "Basic Mocha custom reporter written in Typescript + launch.json for VSCode debugging",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha -r ts-node/register specs/*.spec.ts --reporter index"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bencemagyar/mocha-ts-custom-reporter.git"
+  },
+  "keywords": [
+    "mocha",
+    "typescript",
+    "custom-reporter",
+    "vscode"
+  ],
+  "author": "Bence Magyar",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/bencemagyar/mocha-ts-custom-reporter/issues"
+  },
+  "homepage": "https://github.com/bencemagyar/mocha-ts-custom-reporter#readme",
+  "devDependencies": {
+    "@types/mocha": "^8.2.2",
+    "@types/chai": "^4.2.18",
+    "chai": "^4.3.4",
+    "mocha": "^8.4.0",
+    "ts-node": "^10.0.0",
+    "typescript": "^4.3.2"
+  }
+}
